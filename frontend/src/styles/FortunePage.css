@@ -1,0 +1,42 @@
+.fortune-container {
+  background-image: url("../assets/night-witch-bg.jpg"); /* 밤하늘+마녀 이미지 */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.fortune-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff6ec7;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.fortune-button:hover {
+  background-color: #ff4eb5;
+}
